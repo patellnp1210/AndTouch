@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF2332611DFA517100650DC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2332601DFA517100650DC8 /* AppDelegate.swift */; };
+		CF2332631DFA517100650DC8 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = CF2332621DFA517100650DC8 /* GameScene.sks */; };
+		CF2332651DFA517100650DC8 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = CF2332641DFA517100650DC8 /* Actions.sks */; };
+		CF2332671DFA517100650DC8 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2332661DFA517100650DC8 /* GameScene.swift */; };
+		CF2332691DFA517100650DC8 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF2332681DFA517100650DC8 /* GameViewController.swift */; };
+		CF23326C1DFA517100650DC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF23326A1DFA517100650DC8 /* Main.storyboard */; };
+		CF23326E1DFA517100650DC8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF23326D1DFA517100650DC8 /* Assets.xcassets */; };
+		CF2332711DFA517100650DC8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CF23326F1DFA517100650DC8 /* LaunchScreen.storyboard */; };
+		CF23327C1DFA517100650DC8 /* AndTouchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF23327B1DFA517100650DC8 /* AndTouchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF2332781DFA517100650DC8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF2332551DFA517000650DC8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF23325C1DFA517000650DC8;
+			remoteInfo = AndTouch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF23325D1DFA517100650DC8 /* AndTouch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AndTouch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF2332601DFA517100650DC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CF2332621DFA517100650DC8 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		CF2332641DFA517100650DC8 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		CF2332661DFA517100650DC8 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		CF2332681DFA517100650DC8 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		CF23326B1DFA517100650DC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CF23326D1DFA517100650DC8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CF2332701DFA517100650DC8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CF2332721DFA517100650DC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF2332771DFA517100650DC8 /* AndTouchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AndTouchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF23327B1DFA517100650DC8 /* AndTouchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AndTouchTests.swift; sourceTree = "<group>"; };
+		CF23327D1DFA517100650DC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF23325A1DFA517000650DC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF2332741DFA517100650DC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF2332541DFA517000650DC8 = {
+			isa = PBXGroup;
+			children = (
+				CF23325F1DFA517100650DC8 /* AndTouch */,
+				CF23327A1DFA517100650DC8 /* AndTouchTests */,
+				CF23325E1DFA517100650DC8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF23325E1DFA517100650DC8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF23325D1DFA517100650DC8 /* AndTouch.app */,
+				CF2332771DFA517100650DC8 /* AndTouchTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF23325F1DFA517100650DC8 /* AndTouch */ = {
+			isa = PBXGroup;
+			children = (
+				CF2332601DFA517100650DC8 /* AppDelegate.swift */,
+				CF2332621DFA517100650DC8 /* GameScene.sks */,
+				CF2332641DFA517100650DC8 /* Actions.sks */,
+				CF2332661DFA517100650DC8 /* GameScene.swift */,
+				CF2332681DFA517100650DC8 /* GameViewController.swift */,
+				CF23326A1DFA517100650DC8 /* Main.storyboard */,
+				CF23326D1DFA517100650DC8 /* Assets.xcassets */,
+				CF23326F1DFA517100650DC8 /* LaunchScreen.storyboard */,
+				CF2332721DFA517100650DC8 /* Info.plist */,
+			);
+			path = AndTouch;
+			sourceTree = "<group>";
+		};
+		CF23327A1DFA517100650DC8 /* AndTouchTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF23327B1DFA517100650DC8 /* AndTouchTests.swift */,
+				CF23327D1DFA517100650DC8 /* Info.plist */,
+			);
+			path = AndTouchTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF23325C1DFA517000650DC8 /* AndTouch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF2332801DFA517100650DC8 /* Build configuration list for PBXNativeTarget "AndTouch" */;
+			buildPhases = (
+				CF2332591DFA517000650DC8 /* Sources */,
+				CF23325A1DFA517000650DC8 /* Frameworks */,
+				CF23325B1DFA517000650DC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AndTouch;
+			productName = AndTouch;
+			productReference = CF23325D1DFA517100650DC8 /* AndTouch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF2332761DFA517100650DC8 /* AndTouchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF2332831DFA517100650DC8 /* Build configuration list for PBXNativeTarget "AndTouchTests" */;
+			buildPhases = (
+				CF2332731DFA517100650DC8 /* Sources */,
+				CF2332741DFA517100650DC8 /* Frameworks */,
+				CF2332751DFA517100650DC8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF2332791DFA517100650DC8 /* PBXTargetDependency */,
+			);
+			name = AndTouchTests;
+			productName = AndTouchTests;
+			productReference = CF2332771DFA517100650DC8 /* AndTouchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF2332551DFA517000650DC8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Lokesh Patel";
+				TargetAttributes = {
+					CF23325C1DFA517000650DC8 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = RY7Y27DT58;
+						ProvisioningStyle = Automatic;
+					};
+					CF2332761DFA517100650DC8 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = RY7Y27DT58;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CF23325C1DFA517000650DC8;
+					};
+				};
+			};
+			buildConfigurationList = CF2332581DFA517000650DC8 /* Build configuration list for PBXProject "AndTouch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF2332541DFA517000650DC8;
+			productRefGroup = CF23325E1DFA517100650DC8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF23325C1DFA517000650DC8 /* AndTouch */,
+				CF2332761DFA517100650DC8 /* AndTouchTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF23325B1DFA517000650DC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF23326C1DFA517100650DC8 /* Main.storyboard in Resources */,
+				CF2332631DFA517100650DC8 /* GameScene.sks in Resources */,
+				CF23326E1DFA517100650DC8 /* Assets.xcassets in Resources */,
+				CF2332711DFA517100650DC8 /* LaunchScreen.storyboard in Resources */,
+				CF2332651DFA517100650DC8 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF2332751DFA517100650DC8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF2332591DFA517000650DC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF2332671DFA517100650DC8 /* GameScene.swift in Sources */,
+				CF2332691DFA517100650DC8 /* GameViewController.swift in Sources */,
+				CF2332611DFA517100650DC8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF2332731DFA517100650DC8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF23327C1DFA517100650DC8 /* AndTouchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF2332791DFA517100650DC8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF23325C1DFA517000650DC8 /* AndTouch */;
+			targetProxy = CF2332781DFA517100650DC8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF23326A1DFA517100650DC8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF23326B1DFA517100650DC8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CF23326F1DFA517100650DC8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF2332701DFA517100650DC8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF23327E1DFA517100650DC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CF23327F1DFA517100650DC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CF2332811DFA517100650DC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RY7Y27DT58;
+				INFOPLIST_FILE = AndTouch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Dahi.AndTouch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		CF2332821DFA517100650DC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = RY7Y27DT58;
+				INFOPLIST_FILE = AndTouch/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Dahi.AndTouch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		CF2332841DFA517100650DC8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = RY7Y27DT58;
+				INFOPLIST_FILE = AndTouchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Dahi.AndTouchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AndTouch.app/AndTouch";
+			};
+			name = Debug;
+		};
+		CF2332851DFA517100650DC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = RY7Y27DT58;
+				INFOPLIST_FILE = AndTouchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Dahi.AndTouchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AndTouch.app/AndTouch";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF2332581DFA517000650DC8 /* Build configuration list for PBXProject "AndTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF23327E1DFA517100650DC8 /* Debug */,
+				CF23327F1DFA517100650DC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF2332801DFA517100650DC8 /* Build configuration list for PBXNativeTarget "AndTouch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF2332811DFA517100650DC8 /* Debug */,
+				CF2332821DFA517100650DC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF2332831DFA517100650DC8 /* Build configuration list for PBXNativeTarget "AndTouchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF2332841DFA517100650DC8 /* Debug */,
+				CF2332851DFA517100650DC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF2332551DFA517000650DC8 /* Project object */;
+}
